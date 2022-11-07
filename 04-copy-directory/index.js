@@ -1,7 +1,3 @@
-const { readdir } = require("fs/promises");
-const { mkdir } = require("fs/promises");
-const { copyFile, constants } = require("fs/promises");
-
 const path = require("path");
 const fs = require("fs");
 
